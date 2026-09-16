@@ -1,0 +1,24 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "questlog"
+version = "1.0.0"
+displayName = "Non Stop Quests"
+authors = "§aM8use"
+description = "Daily, weekly, monthly, and mystery-box quests that give you a reason to keep playing your world. Made by §aM8use §fusing §eClaude §fand help from §5mimikyumochi and daily quest randomness idea from §dEpicXd_§f. :)"
+
+[[dependencies."questlog"]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."questlog"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
